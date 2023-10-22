@@ -1,13 +1,12 @@
 import React from "react";
 import "./Header.css";
-function Header() {
+function Header(){
     return(
         <div id="box">
-            <h1>subhash chandra bose</h1>
-            <img 
-            id="image"
-            src="https://cdn.britannica.com/37/171337-004-0B980E9D/Subhas-Chandra-Bose-Indian-National-Army.jpg" alt="loading...."/>
+        <h1>Mahatma Gandhi</h1>
+        <img  id="image" src="https://images.news18.com/ibnlive/uploads/2018/10/Mahatma-Gandhi2.jpg?impolicy=website&width=875&height=0" 
+        alt="loading" />
         </div>
-    );
+    )
 }
-export default Header;
+export default Header
